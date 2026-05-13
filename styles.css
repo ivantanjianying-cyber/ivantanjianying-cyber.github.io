@@ -1,0 +1,36 @@
+/* ------------------------------------------------------------------
+   styles.css — small personal tweaks on top of the chosen theme
+   ------------------------------------------------------------------ */
+
+/* Slightly bolder site title in the navbar */
+.navbar-brand,
+.navbar-title {
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+/* Rounded images give the page a softer, more personal feel */
+img {
+  border-radius: 8px;
+}
+
+/* Cleaner blockquotes — used for the "placeholder" callouts */
+blockquote {
+  border-left: 4px solid #adb5bd;
+  padding-left: 1rem;
+  color: #6c757d;
+  font-style: italic;
+}
+
+/* A touch more breathing room between sections */
+h2 {
+  margin-top: 2rem;
+}
+
+/* Subtle hover on internal links */
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}

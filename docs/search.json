@@ -1,16 +1,191 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "temp_website",
+    "objectID": "dataviz.html",
+    "href": "dataviz.html",
+    "title": "Data Visualization",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Placeholder — replace this page once I have a visualization to feature."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "dataviz.html#the-chart",
+    "href": "dataviz.html#the-chart",
+    "title": "Data Visualization",
+    "section": "The Chart",
+    "text": "The Chart\n\n\n\nCaption describing what the chart shows"
+  },
+  {
+    "objectID": "dataviz.html#what-it-shows",
+    "href": "dataviz.html#what-it-shows",
+    "title": "Data Visualization",
+    "section": "What It Shows",
+    "text": "What It Shows\nTwo or three sentences explaining the chart at a glance — what’s on the x and y axes, what each colour or shape means, and the headline takeaway."
+  },
+  {
+    "objectID": "dataviz.html#the-story-behind-it",
+    "href": "dataviz.html#the-story-behind-it",
+    "title": "Data Visualization",
+    "section": "The Story Behind It",
+    "text": "The Story Behind It\nWhy did I make this? What question was I trying to answer? Was it for a module, a self-initiated exploration, or part of a larger project?\nA good data viz page tells a story — what you noticed in the data, what surprised you, and what conclusion (if any) you drew."
+  },
+  {
+    "objectID": "dataviz.html#data-source",
+    "href": "dataviz.html#data-source",
+    "title": "Data Visualization",
+    "section": "Data Source",
+    "text": "Data Source\n\nDataset: e.g. Singapore HDB Resale Prices, 2017–2024\nSource: link to where the data came from\nSize / scope: e.g. ~150,000 rows, four columns of interest"
+  },
+  {
+    "objectID": "dataviz.html#tools-used",
+    "href": "dataviz.html#tools-used",
+    "title": "Data Visualization",
+    "section": "Tools Used",
+    "text": "Tools Used\n\nLanguage: e.g. R / Python\nLibraries: e.g. ggplot2 / matplotlib / seaborn / plotly"
+  },
+  {
+    "objectID": "dataviz.html#how-i-made-it",
+    "href": "dataviz.html#how-i-made-it",
+    "title": "Data Visualization",
+    "section": "How I Made It",
+    "text": "How I Made It\nA short code chunk that shows the core of how the chart was produced:\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\ndf = pd.read_csv(\"data.csv\")\n\nfig, ax = plt.subplots(figsize=(8, 5))\nax.plot(df[\"year\"], df[\"price\"])\nax.set_title(\"Example Chart\")\nplt.show()"
+  },
+  {
+    "objectID": "dataviz.html#what-id-do-differently",
+    "href": "dataviz.html#what-id-do-differently",
+    "title": "Data Visualization",
+    "section": "What I’d Do Differently",
+    "text": "What I’d Do Differently\nA short, honest reflection — design choices I might revisit, things I learned about presenting data clearly, or follow-up questions the chart raised.\n\nReflection 1\nReflection 2\n\n\nLast updated:"
+  },
+  {
+    "objectID": "genai-reflection.html",
+    "href": "genai-reflection.html",
+    "title": "Reflection on Using GenAI",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "This page is a personal reflection on how I used a generative AI tool to help build this website. It will evolve as I use GenAI more across my modules."
+  },
+  {
+    "objectID": "genai-reflection.html#the-tool-i-used",
+    "href": "genai-reflection.html#the-tool-i-used",
+    "title": "Reflection on Using GenAI",
+    "section": "The Tool I Used",
+    "text": "The Tool I Used\nFor this lab I used Claude (by Anthropic), accessed through the web chat interface at claude.ai. I chose it because it handles longer, multi-turn conversations well and is comfortable producing formatted text — Markdown, code chunks, file structures — which is exactly what a Quarto site needs."
+  },
+  {
+    "objectID": "genai-reflection.html#what-i-used-it-for",
+    "href": "genai-reflection.html#what-i-used-it-for",
+    "title": "Reflection on Using GenAI",
+    "section": "What I Used It For",
+    "text": "What I Used It For\nI did not use Claude to write the website for me — I used it as a drafting partner. Specifically, it helped me:\n\nStructure my homepage (index.qmd) — I gave it a few bullet points about myself (name, programme, hobbies, my dog Kimchi) and it shaped them into a coherent intro with proper Markdown formatting.\nGenerate placeholder templates for my project and data visualization pages, so I have a consistent structure to fill in later.\nExplain Quarto-specific things — for example, the difference between source files (.qmd) and the auto-generated docs/ folder, and where to place an imgs/ directory so that Quarto picks it up correctly.\nApply Markdown patterns I had not used before, such as the float-left layout for putting an image of Kimchi beside text."
+  },
+  {
+    "objectID": "genai-reflection.html#what-i-found-useful",
+    "href": "genai-reflection.html#what-i-found-useful",
+    "title": "Reflection on Using GenAI",
+    "section": "What I Found Useful",
+    "text": "What I Found Useful\n\nSpeed on boilerplate. Getting the scaffolding of a page — headings, lists, image syntax, code chunks — done in seconds meant I could focus on what I actually wanted to say.\nClear, focused explanations. When I asked a small technical question (where to put my imgs/ folder), I got a direct answer with the reasoning behind it, rather than having to dig through documentation.\nHonest pushback when I gave too little. When I vaguely said I wanted to write about my “Week 2 Data Eng” assignment without giving any details, it didn’t invent a project — it asked me for the actual content. That mattered. It meant the output stayed grounded in things I’d actually done."
+  },
+  {
+    "objectID": "genai-reflection.html#what-i-found-challenging",
+    "href": "genai-reflection.html#what-i-found-challenging",
+    "title": "Reflection on Using GenAI",
+    "section": "What I Found Challenging",
+    "text": "What I Found Challenging\n(Replace this with your own honest observations as you keep using GenAI. Some prompts to think about:)\n\nWere there moments where the output felt generic or “AI-sounding,” and I had to rewrite it in my own voice?\nDid I notice myself reaching for it too quickly, before thinking the problem through myself?\nWere there places where its suggestions were confidently wrong, or technically off?"
+  },
+  {
+    "objectID": "genai-reflection.html#what-i-learned",
+    "href": "genai-reflection.html#what-i-learned",
+    "title": "Reflection on Using GenAI",
+    "section": "What I Learned",
+    "text": "What I Learned\n\nGenAI is a multiplier, not a substitute. It can polish, structure, and format — but the substance has to come from me. When I had no project to write about, the best it could offer was an empty template.\nThe quality of the output tracks the quality of the input. Short, vague prompts gave short, generic results. When I gave more context (my year, my interests, my tone preference), the output got noticeably better.\nTreat it as a draft, not a final answer. Everything it produced still needed a read-through, light edits, and personal touches before it felt like mine."
+  },
+  {
+    "objectID": "genai-reflection.html#going-forward",
+    "href": "genai-reflection.html#going-forward",
+    "title": "Reflection on Using GenAI",
+    "section": "Going Forward",
+    "text": "Going Forward\nIn future modules I plan to:\n\nDisclose where I used GenAI, the same way I’m doing on this page.\nAvoid using it for anything I can’t explain or defend myself. If I can’t justify a line of code or a paragraph of writing on my own, it should not be in my submission.\nUse it most where it helps me learn faster — explaining unfamiliar concepts, suggesting how to structure a piece of work, or catching mistakes — rather than as a way to skip the thinking.\n\n\nLast updated:"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hi, I’m Ivan 👋",
+    "section": "",
+    "text": "Welcome to my little corner of the internet!\nI’m Tan Jian Ying Ivan, a Year 1 student in the Applied Artificial Intelligence (AAI) programme at the Singapore Institute of Technology. This site is where I’ll be sharing what I’m learning, things I’m building, and a few bits of life outside the classroom."
+  },
+  {
+    "objectID": "index.html#a-bit-about-me",
+    "href": "index.html#a-bit-about-me",
+    "title": "Hi, I’m Ivan 👋",
+    "section": "A bit about me",
+    "text": "A bit about me\nWhen I’m not in lectures or tinkering with code, you’ll probably find me:\n\n🏃 Running — clearing my head one kilometre at a time\n🏋️ Working out — the most consistent way I’ve found to push myself outside of school\n🌱 Tending to my plants — a small but growing collection\n🐶 Hanging out with Kimchi, my toy poodle (more on him below)"
+  },
+  {
+    "objectID": "index.html#meet-kimchi",
+    "href": "index.html#meet-kimchi",
+    "title": "Hi, I’m Ivan 👋",
+    "section": "Meet Kimchi 🐾",
+    "text": "Meet Kimchi 🐾\n\n\n\nKimchi is my toy poodle and unofficial study buddy. He has a talent for showing up exactly when I’m trying to focus and being too cute to ignore. He is, objectively, the best dog."
+  },
+  {
+    "objectID": "index.html#what-youll-find-here",
+    "href": "index.html#what-youll-find-here",
+    "title": "Hi, I’m Ivan 👋",
+    "section": "What you’ll find here",
+    "text": "What you’ll find here\nHave a look around — there’s a bit of everything:\n\nA project I’m proud of\nA data visualization with the story behind it\nMy reflection on using GenAI in my studies\n\nThanks for stopping by!"
+  },
+  {
+    "objectID": "project.html",
+    "href": "project.html",
+    "title": "Project",
+    "section": "",
+    "text": "Placeholder — replace this page once I have a project to feature."
+  },
+  {
+    "objectID": "project.html#overview",
+    "href": "project.html#overview",
+    "title": "Project",
+    "section": "Overview",
+    "text": "Overview\nA one- or two-sentence summary of what the project is and why it matters. Example: “A small ETL pipeline that pulls daily weather data, cleans it, and stores it in a SQLite database for later analysis.”"
+  },
+  {
+    "objectID": "project.html#background",
+    "href": "project.html#background",
+    "title": "Project",
+    "section": "Background",
+    "text": "Background\nWhat problem were you solving? What was the context — a module assignment, a personal curiosity, a hackathon brief? Two or three sentences is plenty."
+  },
+  {
+    "objectID": "project.html#tools-technologies",
+    "href": "project.html#tools-technologies",
+    "title": "Project",
+    "section": "Tools & Technologies",
+    "text": "Tools & Technologies\n\nLanguage: e.g. Python 3.11\nLibraries: e.g. pandas, SQLAlchemy, requests\nOther: e.g. SQLite, GitHub, VS Code"
+  },
+  {
+    "objectID": "project.html#what-i-built",
+    "href": "project.html#what-i-built",
+    "title": "Project",
+    "section": "What I Built",
+    "text": "What I Built\nWalk through what the project actually does. Use sub-headings if it has multiple parts.\n\nStep 1: Something\nExplain it briefly. Drop in a code chunk if it helps:\nimport pandas as pd\n\ndf = pd.read_csv(\"data.csv\")\ndf.head()\n\n\nStep 2: Something else\nContinue the story."
+  },
+  {
+    "objectID": "project.html#screenshots-results",
+    "href": "project.html#screenshots-results",
+    "title": "Project",
+    "section": "Screenshots / Results",
+    "text": "Screenshots / Results\n\n\n\nCaption describing the screenshot or chart"
+  },
+  {
+    "objectID": "project.html#what-i-learned",
+    "href": "project.html#what-i-learned",
+    "title": "Project",
+    "section": "What I Learned",
+    "text": "What I Learned\nThree or four honest takeaways. Things that surprised you, things you’d do differently, concepts that clicked. This is often the most interesting part for a reader.\n\nTakeaway 1\nTakeaway 2\nTakeaway 3"
+  },
+  {
+    "objectID": "project.html#links",
+    "href": "project.html#links",
+    "title": "Project",
+    "section": "Links",
+    "text": "Links\n\n🔗 GitHub repository\n📄 Full report (PDF)\n\n\nLast updated:"
   }
 ]
