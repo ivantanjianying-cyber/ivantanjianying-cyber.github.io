@@ -1,0 +1,60 @@
+---
+title: "Project"
+---
+
+> *Placeholder — replace this page once I have a project to feature.*
+
+## Overview
+
+A one- or two-sentence summary of what the project is and why it matters.
+*Example: "A small ETL pipeline that pulls daily weather data, cleans it, and stores it in a SQLite database for later analysis."*
+
+## Background
+
+What problem were you solving? What was the context — a module assignment, a personal curiosity, a hackathon brief? Two or three sentences is plenty.
+
+## Tools & Technologies
+
+- **Language:** *e.g. Python 3.11*
+- **Libraries:** *e.g. pandas, SQLAlchemy, requests*
+- **Other:** *e.g. SQLite, GitHub, VS Code*
+
+## What I Built
+
+Walk through what the project actually does. Use sub-headings if it has multiple parts.
+
+### Step 1: *Something*
+
+Explain it briefly. Drop in a code chunk if it helps:
+
+```python
+import pandas as pd
+
+df = pd.read_csv("data.csv")
+df.head()
+```
+
+### Step 2: *Something else*
+
+Continue the story.
+
+## Screenshots / Results
+
+![Caption describing the screenshot or chart](imgs/project-screenshot.png){width=80%}
+
+## What I Learned
+
+Three or four honest takeaways. Things that surprised you, things you'd do differently, concepts that clicked. This is often the most interesting part for a reader.
+
+- *Takeaway 1*
+- *Takeaway 2*
+- *Takeaway 3*
+
+## Links
+
+- 🔗 [GitHub repository](https://github.com/your-username/project-name)
+- 📄 [Full report (PDF)](files/report.pdf)
+
+---
+
+*Last updated: <!-- add date when you fill this in -->*

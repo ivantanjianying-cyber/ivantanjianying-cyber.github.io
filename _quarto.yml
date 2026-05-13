@@ -3,20 +3,38 @@ project:
   output-dir: docs
 
 website:
-  title: "temp_website"
+  title: "Ivan Tan"
+  description: "Year 1 Applied AI student at SIT — projects, notes, and a bit of life."
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: project.qmd
+        text: Project
+      - href: dataviz.qmd
+        text: Data Viz
+      - href: genai-reflection.qmd
+        text: GenAI Reflection
+    right:
+      - icon: github
+        href: https://github.com/your-username
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://linkedin.com/in/your-username
+        aria-label: LinkedIn
+  page-footer:
+    center: "© 2026 Ivan Tan · Built with [Quarto](https://quarto.org)"
 
 format:
   html:
+    # Built-in themes you can swap to: cosmo, flatly, journal, litera,
+    # lumen, minty, sandstone, simplex, sketchy, united, yeti, zephyr.
+    # Pair light + dark for a toggle in the navbar.
     theme:
-      - cosmo
-      - brand
+      light: cosmo
+      dark: darkly
     css: styles.css
     toc: true
-
-
-
+    toc-location: right
+    code-copy: true
+    code-overflow: wrap

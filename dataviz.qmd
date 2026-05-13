@@ -1,0 +1,57 @@
+---
+title: "Data Visualization"
+---
+
+> *Placeholder — replace this page once I have a visualization to feature.*
+
+## The Chart
+
+![Caption describing what the chart shows](imgs/dataviz.png){width=90% fig-align="center"}
+
+## What It Shows
+
+Two or three sentences explaining the chart at a glance — what's on the x and y axes, what each colour or shape means, and the headline takeaway.
+
+## The Story Behind It
+
+Why did I make this? What question was I trying to answer? Was it for a module, a self-initiated exploration, or part of a larger project?
+
+*A good data viz page tells a story — what you noticed in the data, what surprised you, and what conclusion (if any) you drew.*
+
+## Data Source
+
+- **Dataset:** *e.g. Singapore HDB Resale Prices, 2017–2024*
+- **Source:** [link to where the data came from](https://example.com)
+- **Size / scope:** *e.g. ~150,000 rows, four columns of interest*
+
+## Tools Used
+
+- **Language:** *e.g. R / Python*
+- **Libraries:** *e.g. ggplot2 / matplotlib / seaborn / plotly*
+
+## How I Made It
+
+A short code chunk that shows the core of how the chart was produced:
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+
+df = pd.read_csv("data.csv")
+
+fig, ax = plt.subplots(figsize=(8, 5))
+ax.plot(df["year"], df["price"])
+ax.set_title("Example Chart")
+plt.show()
+```
+
+## What I'd Do Differently
+
+A short, honest reflection — design choices I might revisit, things I learned about presenting data clearly, or follow-up questions the chart raised.
+
+- *Reflection 1*
+- *Reflection 2*
+
+---
+
+*Last updated: <!-- add date when you fill this in -->*

@@ -1,0 +1,50 @@
+---
+title: "Reflection on Using GenAI"
+---
+
+> *This page is a personal reflection on how I used a generative AI tool to help build this website. It will evolve as I use GenAI more across my modules.*
+
+## The Tool I Used
+
+For this lab I used **Claude** (by Anthropic), accessed through the web chat interface at [claude.ai](https://claude.ai). I chose it because it handles longer, multi-turn conversations well and is comfortable producing formatted text — Markdown, code chunks, file structures — which is exactly what a Quarto site needs.
+
+## What I Used It For
+
+I did not use Claude to write the website *for* me — I used it as a drafting partner. Specifically, it helped me:
+
+- **Structure my homepage (`index.qmd`)** — I gave it a few bullet points about myself (name, programme, hobbies, my dog Kimchi) and it shaped them into a coherent intro with proper Markdown formatting.
+- **Generate placeholder templates** for my project and data visualization pages, so I have a consistent structure to fill in later.
+- **Explain Quarto-specific things** — for example, the difference between source files (`.qmd`) and the auto-generated `docs/` folder, and where to place an `imgs/` directory so that Quarto picks it up correctly.
+- **Apply Markdown patterns** I had not used before, such as the float-left layout for putting an image of Kimchi beside text.
+
+## What I Found Useful
+
+- **Speed on boilerplate.** Getting the scaffolding of a page — headings, lists, image syntax, code chunks — done in seconds meant I could focus on what I actually wanted to say.
+- **Clear, focused explanations.** When I asked a small technical question (where to put my `imgs/` folder), I got a direct answer with the reasoning behind it, rather than having to dig through documentation.
+- **Honest pushback when I gave too little.** When I vaguely said I wanted to write about my "Week 2 Data Eng" assignment without giving any details, it didn't invent a project — it asked me for the actual content. That mattered. It meant the output stayed grounded in things I'd actually done.
+
+## What I Found Challenging
+
+*(Replace this with your own honest observations as you keep using GenAI. Some prompts to think about:)*
+
+- Were there moments where the output felt generic or "AI-sounding," and I had to rewrite it in my own voice?
+- Did I notice myself reaching for it too quickly, before thinking the problem through myself?
+- Were there places where its suggestions were confidently wrong, or technically off?
+
+## What I Learned
+
+- **GenAI is a multiplier, not a substitute.** It can polish, structure, and format — but the substance has to come from me. When I had no project to write about, the best it could offer was an empty template.
+- **The quality of the output tracks the quality of the input.** Short, vague prompts gave short, generic results. When I gave more context (my year, my interests, my tone preference), the output got noticeably better.
+- **Treat it as a draft, not a final answer.** Everything it produced still needed a read-through, light edits, and personal touches before it felt like *mine*.
+
+## Going Forward
+
+In future modules I plan to:
+
+- **Disclose** where I used GenAI, the same way I'm doing on this page.
+- **Avoid using it for anything I can't explain or defend myself.** If I can't justify a line of code or a paragraph of writing on my own, it should not be in my submission.
+- **Use it most where it helps me learn faster** — explaining unfamiliar concepts, suggesting how to structure a piece of work, or catching mistakes — rather than as a way to skip the thinking.
+
+---
+
+*Last updated: <!-- add date when you finalise this -->*
